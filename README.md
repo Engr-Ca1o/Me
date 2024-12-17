@@ -25,7 +25,7 @@ Welcome to my **Personal Portfolio Website**, a showcase of my work, skills, and
 
 ## 🎨 Live Demo
 
-Check out the live version of my portfolio here: [Portfolio Live Demo](engr-calo-me.vercel.app)  
+Check out the live version of my portfolio here: [Portfolio Live Demo](https://engr-calo-me.vercel.app/)  
 
 ---
 
