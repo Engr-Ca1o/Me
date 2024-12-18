@@ -71,28 +71,24 @@ nav ul li a {
     padding: 1rem;
 }
 
-.typing h1 {
-    border-right:  solid orange;
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-.typing h1:nth-child(1) {
-    animation: type 2s steps(20, end), blink .5s step-end infinite alternate;
-    animation-fill-mode: forwards;
-}
-  
-.typing h1:nth-child(2) {
-    opacity: 0;
-    animation: type2 2s steps(20, end), blink .5s step-end infinite alternate;
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
-}
-  
-.hero h1 {
+.right #typing  {
     font-family: monospace;
     font-size: 2.5rem;
     font-weight: 900;
+    display: inline;
+}
+
+#typing {
+  font-size: 2em;
+}
+.typed-cursor {
+  font-size: 2em;
+  color: orange;
+}
+
+.cursor {
+    font-size: inherit;
+    color: orange;
 }
 
 .hero p {
@@ -290,33 +286,6 @@ footer {
     nav ul {
         flex-direction: column;
         align-items: center;
-    }
-}
-
-@keyframes type {
-    0% {
-        width: 0%;
-    }
-    99.9% {
-        border-right: .15em solid orange;
-    }
-    100% {
-        width: 75%;
-        border: none;
-    }
-}
-  
-  
-@keyframes type2 {
-    0% {
-      width: 0%;
-    }
-    1% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 1;
-      width: 93%;
     }
 }
   

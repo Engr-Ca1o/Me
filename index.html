@@ -30,10 +30,22 @@
             <img class="image-fade animate__animated animate__fadeIn" src="/assets/portfolio portrait.png" alt="">
         </div>
         <div  class="right">
-            <div class="typing">
-                <h1 class="">Crafting ideas with </h1>
-                <h1 class="">code, <span style="color: orange;">one line at a time.</span></h1>
-            </div>
+            <span id="typing">
+    
+            </span>
+
+
+
+  <!-- Load library from the CDN -->
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+            <!-- Setup and start animation! -->
+            <script>
+                var typed = new Typed('#typing', {
+                strings: ['Crafting ideas with code,<br> <span style="color: orange;">one line at a time.</span></h1></div>'],
+                typeSpeed: 50,
+                });
+            </script>
             <br><br>
             <p class="animate__animated animate__fadeIn">Hi there! <br><br>
                 I'm <span style="font-weight: 800;">Carlo</span>, a 4th-Year Computer Engineering student at Don Honorio Ventura State University. I enjoy in creating minimalist websites. When I'm not coding, you’ll find me exploring creative solutions to real-world challenges, driven by my love for innovation and design.</p>
